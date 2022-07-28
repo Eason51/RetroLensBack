@@ -1,0 +1,423 @@
+[
+	{
+		"smiles": "O1C=C[C@H]([C@H]1O2)c3c2cc(OC)c4c3OC(=O)C5=C4CCC(=O)5",
+		"attributes": {
+			"confidence": 0.888,
+			"isExpandable": false,
+			"isCommercial": false,
+			"userSelected": false
+		},
+		"children": [
+			{
+				"smiles": "COc1cc2c(c3oc(=O)c4c(c13)CCC4O)[C@@H]1C=CO[C@@H]1O2",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": false,
+					"userSelected": false
+				},
+				"children": [
+					{
+						"smiles": "COc1cc2c(c3oc(=O)c4c(c13)CCC4O)[C@@H]1C=CO[C@@H]1O2",
+						"attributes": {
+							"confidence": 0,
+							"isExpandable": false,
+							"isCommercial": false,
+							"userSelected": false
+						},
+						"children": []
+					}
+				]
+			},
+			{
+				"smiles": "CCN(CC)CC",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "CS(C)=O",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "ClCCl",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "O",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "[Cl-]",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			}
+		]
+	},
+	{
+		"smiles": "O1C=C[C@H]([C@H]1O2)c3c2cc(OC)c4c3OC(=O)C5=C4CCC(=O)5",
+		"attributes": {
+			"confidence": 0.441,
+			"isExpandable": false,
+			"isCommercial": false,
+			"userSelected": false
+		},
+		"children": [
+			{
+				"smiles": "COc1cc2c(c3oc(=O)c4c(c13)CCC41OCCO1)[C@@H]1C=CO[C@@H]1O2",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": false,
+					"userSelected": false
+				},
+				"children": [
+					{
+						"smiles": "COc1cc2c(c3oc(=O)c4c(c13)CCC41OCCO1)[C@@H]1C=CO[C@@H]1O2",
+						"attributes": {
+							"confidence": 0,
+							"isExpandable": false,
+							"isCommercial": false,
+							"userSelected": false
+						},
+						"children": []
+					}
+				]
+			},
+			{
+				"smiles": "ClCCl",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "O=C(O)C(F)(F)F",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			}
+		]
+	},
+	{
+		"smiles": "O1C=C[C@H]([C@H]1O2)c3c2cc(OC)c4c3OC(=O)C5=C4CCC(=O)5",
+		"attributes": {
+			"confidence": 0.0161,
+			"isExpandable": false,
+			"isCommercial": false,
+			"userSelected": false
+		},
+		"children": [
+			{
+				"smiles": "COc1cc2c(c3oc(=O)c4c(c13)C=CC4=O)[C@@H]1C=CO[C@@H]1O2",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": false,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "[H][H]",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "[Pd]",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			}
+		]
+	},
+	{
+		"smiles": "O1C=C[C@H]([C@H]1O2)c3c2cc(OC)c4c3OC(=O)C5=C4CCC(=O)5",
+		"attributes": {
+			"confidence": 0.0113,
+			"isExpandable": false,
+			"isCommercial": false,
+			"userSelected": false
+		},
+		"children": [
+			{
+				"smiles": "COc1cc2c(c3oc(=O)c4c(c13)CCC4=O)[C@@H]1CC(O)O[C@@H]1O2",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": false,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "CCN(CC)CC",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "CS(=O)(=O)Cl",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "ClCCl",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			}
+		]
+	},
+	{
+		"smiles": "O1C=C[C@H]([C@H]1O2)c3c2cc(OC)c4c3OC(=O)C5=C4CCC(=O)5",
+		"attributes": {
+			"confidence": 0.0061,
+			"isExpandable": false,
+			"isCommercial": false,
+			"userSelected": false
+		},
+		"children": [
+			{
+				"smiles": "COc1cc2c(c3oc(=O)c4c(c13)CCC4=O)[C@@H]1[C@@H](O)CO[C@@H]1O2",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": false,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "CCN(CC)CC",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "CS(=O)(=O)Cl",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "ClCCl",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			}
+		]
+	},
+	{
+		"smiles": "O1C=C[C@H]([C@H]1O2)c3c2cc(OC)c4c3OC(=O)C5=C4CCC(=O)5",
+		"attributes": {
+			"confidence": 0.00262,
+			"isExpandable": false,
+			"isCommercial": false,
+			"userSelected": false
+		},
+		"children": [
+			{
+				"smiles": "COc1cc2c(c3oc(=O)c4c(c13)CCC4=O)C1C=COC1O2",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "Cc1ccccc1",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			}
+		]
+	},
+	{
+		"smiles": "O1C=C[C@H]([C@H]1O2)c3c2cc(OC)c4c3OC(=O)C5=C4CCC(=O)5",
+		"attributes": {
+			"confidence": 0.00113,
+			"isExpandable": false,
+			"isCommercial": false,
+			"userSelected": false
+		},
+		"children": [
+			{
+				"smiles": "COc1cc2c(c3oc(=O)c4c(c13)CCC4=O)C1C=COC1O2",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "ClCCl",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			}
+		]
+	},
+	{
+		"smiles": "O1C=C[C@H]([C@H]1O2)c3c2cc(OC)c4c3OC(=O)C5=C4CCC(=O)5",
+		"attributes": {
+			"confidence": 3.63e-05,
+			"isExpandable": false,
+			"isCommercial": false,
+			"userSelected": false
+		},
+		"children": [
+			{
+				"smiles": "COc1cc2c(c3oc(=O)c4c(c13)CCC4=O)C1C=COC1O2",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "Cc1ccc(S(=O)(=O)O)cc1",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "Cc1ccccc1",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			}
+		]
+	},
+	{
+		"smiles": "O1C=C[C@H]([C@H]1O2)c3c2cc(OC)c4c3OC(=O)C5=C4CCC(=O)5",
+		"attributes": {
+			"confidence": 1.82e-05,
+			"isExpandable": false,
+			"isCommercial": false,
+			"userSelected": false
+		},
+		"children": [
+			{
+				"smiles": "COc1cc(O)c(C2C=COC2O)c2oc(=O)c3c(c12)CCC3=O",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": false,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "Cc1ccc(S(=O)(=O)O)cc1",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			},
+			{
+				"smiles": "Cc1ccccc1",
+				"attributes": {
+					"confidence": 0,
+					"isExpandable": false,
+					"isCommercial": true,
+					"userSelected": false
+				},
+				"children": []
+			}
+		]
+	}
+]
