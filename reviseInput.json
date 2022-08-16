@@ -1,0 +1,161 @@
+{
+	"children": [
+		{
+			"children": [
+				{
+					"children": [
+						{
+							"depth": 3,
+							"id": "node-0.98835850517489291658044540625",
+							"isAvailable": true,
+							"labelCfg": {
+								"style": {
+									"fill": "red",
+									"fontSize": 10
+								}
+							},
+							"smiles": "c1ccccc1c1ccccc1",
+							"style": {
+								"stroke": "#72CC4A",
+								"width": 150
+							},
+							"type": "retroTreeNode",
+							"x": -481.5,
+							"y": 490
+						},
+						{
+							"depth": 3,
+							"id": "node-0.92062753494264541658044540630",
+							"isAvailable": true,
+							"labelCfg": {
+								"style": {
+									"fill": "red",
+									"fontSize": 10
+								}
+							},
+							"smiles": "c1ccccc1c1ccccc1",
+							"style": {
+								"stroke": "#72CC4A",
+								"width": 150
+							},
+							"type": "retroTreeNode",
+							"x": -263.5,
+							"y": 490,
+							"notAvailable": true
+						}
+					],
+					"depth": 2,
+					"id": "node-0.59220902261823591658044540620",
+					"labelCfg": {
+						"style": {
+							"fill": "red",
+							"fontSize": 10
+						}
+					},
+					"smiles": "c1ccccc1c1ccccc1",
+					"style": {
+						"stroke": "#72CC4A",
+						"width": 150
+					},
+					"type": "retroTreeNode",
+					"x": -372.5,
+					"y": 254
+				}
+			],
+			"depth": 1,
+			"id": "node-0.47912459389512941658044540613",
+			"labelCfg": {
+				"style": {
+					"fill": "red",
+					"fontSize": 10
+				}
+			},
+			"smiles": "c1ccccc1c1ccccc1",
+			"style": {
+				"stroke": "#72CC4A",
+				"width": 150
+			},
+			"type": "retroTreeNode",
+			"x": -372.5,
+			"y": 18
+		},
+		{
+			"children": [
+				{
+					"depth": 2,
+					"failureCause": "Cannot find a route when excluding the substructure",
+					"id": "node-0.236638154895961961658044540644",
+					"isAvailable": false,
+					"labelCfg": {
+						"style": {
+							"fill": "red",
+							"fontSize": 10
+						}
+					},
+					"smiles": "c1ccccc1c1ccccc1",
+					"style": {
+						"stroke": "#72CC4A",
+						"width": 150
+					},
+					"type": "retroTreeNode",
+					"x": -154.5,
+					"y": 254
+				},
+				{
+					"depth": 2,
+					"id": "node-0.153969580724269581658044540652",
+					"isAvailable": true,
+					"labelCfg": {
+						"style": {
+							"fill": "red",
+							"fontSize": 10
+						}
+					},
+					"smiles": "c1ccccc1c1ccccc1",
+					"style": {
+						"stroke": "#72CC4A",
+						"width": 150
+					},
+					"type": "retroTreeNode",
+					"x": 63.5,
+					"y": 254,
+					"notAvailable": true
+				}
+			],
+			"depth": 1,
+			"id": "node-0.434019383830223541658044540636",
+			"labelCfg": {
+				"style": {
+					"fill": "red",
+					"fontSize": 10
+				}
+			},
+			"smiles": "c1ccccc1c1ccccc1",
+			"style": {
+				"stroke": "#72CC4A",
+				"width": 150
+			},
+			"type": "retroTreeNode",
+			"x": -45.5,
+			"y": 18
+		}
+	],
+	"confidence": 0.888,
+	"depth": 0,
+	"id": "node-0.70888922511681021658044540610",
+	"labelCfg": {
+		"style": {
+			"fill": "red",
+			"fontSize": 10
+		}
+	},
+	"root": true,
+	"smiles": "CC(C)(O1)C[C@@H](O)[C@@]1(O2)[C@@H](C)[C@@H]3CC=C4[C@]3(C2)C(=O)C[C@H]5[C@H]4CC[C@@H](C6)[C@]5(C)Cc(n7)c6nc(C[C@@]89(C))c7C[C@@H]8CC[C@@H]%10[C@@H]9C[C@@H](O)[C@@]%11(C)C%10=C[C@H](O%12)[C@]%11(O)[C@H](C)[C@]%12(O%13)[C@H](O)C[C@@]%13(C)CO",
+	"style": {
+		"stroke": "#72CC4A",
+		"width": 150
+	},
+	"type": "retroTreeNode",
+	"x": -209,
+	"y": -218
+}

@@ -1,0 +1,97 @@
+写revise功能 
+RXN多线程
+后端限制10分钟, 前端加等待弹窗, 做了
+前端的15步constraint修改一下，
+
+
+subtree confidence，最下面用AI返回的confidence，乘以上面每一步人的confidence，
+
+节点的subtree confidence, 没有问题subtree的confidence的加权平均，权重算节点数量，
+(1)如果subtree是多步的就乘起来
+(2)如果只有一个分子，直接用分子的confidence, 加权按分子数量，
+(3)如果subtree中有问题分子，confidence就是0
+
+
+确定candidate：
+（1）只有一个问题分子： 
+	1）问题分子的骨架第一次出现的地方在AI的范围内：所有人工范围内的步骤都是candidate
+	2) 骨架第一次出现在人工范围内：第一次出现的步骤往上都是candidate
+（2）有多个问题分子：
+	1). 多个问题分子在同一条分支： 以最上面的问题分子为主
+	2). 多个问题分子不在同一条分支：
+		①. 问题分子的交汇处在AI范围内：以更靠上的问题分子为主
+		②。问题分子的交汇处在人工范围内：每个问题分子有单独的candidate，靠上面的candidate会重合
+                    
+算SAW score：
+(1) 只有一条路线有candidate: 每个candidate单独算SAW score
+(2) 有多条路线有candidtae, 上面的candidate有重合：
+	多条路线重合的节点算每条分支SAW的加权平均，除此之外所有节点单独算一个SAW
+
+
+
+RXN输入 CC1=C(O)C=C2C(CC[C@@H]3[C@]42CC[C@](OC4)(O)C3(C)C)=C1C=C，
+没有constraint，返回第二条路线前端和RXN的confidence不一致，以RXN API返回的confidence为准，不管RXN前端
+自动补全confidence最高路线
+做了
+
+AI范围内的步骤不提供edit button
+做了
+
+修改颜色
+
+{'response': '<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'}
+
+每次用户输入总等的时间不能超过10分钟
+做了
+
+reconfigureConstraints等待弹窗
+做了
+
+revise sidebar只展示勾选的weight选项
+做了
+
+reactionconfidence只计算人工的步骤
+做了
+
+subtree confidence不要重复计算reactant confidence
+
+AI失败的分子去掉tooltip
+做了
+
+AI alternative confidence直接写confidence
+做了
+
+弹窗：This process might take up to 10 minutes
+做了
+
+通过颜色区分人工断键的部分和AI断键的部分，给人工断的位置镶个边
+做了
+
+weight input小字提示，如果不选择的默认值
+做了
+
+constraint的含义加tooltip
+做了
+
+weight input和constraint input 添加小字说明
+
+
+
+
+
+
+
+
+把所有的candidate step排列组合：
+	（1） 每个组合中的candidate step只对应一条问题分子路线
+	（2） 有的candidate step本身对应了多个问题分子的路线
+
+对于每个组合中的candidate step:
+
+	influence: 直接相加
+	complexity: 加权平均 （这里的权重只是step本身的atom number，不是整个subtree的）
+	convergence: 加权平均，同complexity
+	reaction confidence: 加权平均，同complexity
+	subtree confidence: 把所有有问题的分支放在一起重新算一次subtree confidence,
+		左节点，有两个分支，其中一个有问题，右节点，有三个分支，其中一个有问题，
+		现在按总共五个分支，两个有问题，重新算subtree confidence

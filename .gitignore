@@ -1,0 +1,12 @@
+.csv
+models/
+models/example_model/
+models/full_reaxys_model_1024bool/
+models/full_reaxys_model_1024uint8/
+models/full_reaxys_model_2048bool/
+__pycache__/
+.vscode/
+test2.py
+./USPTO_50K.csv
+./USPTO_FULL.csv
+USPTO_FULL.csv
